@@ -26,6 +26,7 @@ ul {
   padding-left: 20px;
 }
 
+/* Links */
 a {
   color: #0066cc;
   text-decoration: none;
@@ -35,9 +36,48 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
   color: #777;
+}
+
+/* Navigation buttons */
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav button {
+  background-color: #eee;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav button.active,
+nav button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+/* Sections visibility */
+section {
+  display: none;
+}
+
+/* Show the active main section */
+section.active {
+  display: block;
+}
+
+/* Show nested sections inside the active section */
+section.active > section {
+  display: block;
 }
