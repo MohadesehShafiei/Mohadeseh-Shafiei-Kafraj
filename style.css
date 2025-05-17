@@ -15,7 +15,12 @@ header {
 
 .profile-pic {
   width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
 h1, h2 {
