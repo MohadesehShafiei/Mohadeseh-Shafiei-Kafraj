@@ -86,3 +86,9 @@ section.active {
 section.active > section {
   display: block;
 }
+
+/* Justify paragraph text in About Me */
+#about p {
+  text-align: justify;
+  text-justify: inter-word;
+}
